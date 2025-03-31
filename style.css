@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#mp3-container{
+    margin: auto;
+    aspect-ratio: 1/1.4;
+    width: 500px;
+    padding-top: 20px;
+    background: pink;
+    border-radius: 20px;
+    
+}
+
+#screen-wrap  {
+    aspect-ratio: 1/0.8;
+    width:90%;
+    margin: auto;
+    padding: 10px;
+    background-color: black;
+    margin-bottom: 20px;
+    /* margin-bottom: 100px; */
+}
+
+#screen{
+    width: 100%;
+    max-height: 100%;
+    aspect-ratio: 1/1;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    margin: 0 auto;
+    display: flex;
+    max-width: 70%;
+}
+p{
+    margin: 0 30px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+#music-bar{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 70%;
+    
+}
+#controls{
+    width:70%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    
+}
+#controls img{
+    margin: auto;
+    min-width: 45px;
+    height: auto;
+}
